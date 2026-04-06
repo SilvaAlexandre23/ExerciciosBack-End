@@ -1,0 +1,8 @@
+function até10(num){
+    
+    for (let contador=1; contador<=10;contador++){
+        console.log(num*contador)
+    }
+    return ""
+}
+console.log(até10(9))
