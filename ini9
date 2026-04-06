@@ -1,0 +1,8 @@
+function mostrar(elem){
+    for (let i=0;i<elem.length;i++){
+        console.log(elem[i])
+        
+    }
+    return(" ")
+}
+console.log(mostrar([1,2,3,4]))
