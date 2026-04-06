@@ -1,0 +1,11 @@
+function contarpar(num){
+    let contador=0;
+    for (let i=0; i<num.length;i++){
+    if (num[i]%2===0){
+        contador++;
+        }
+    }
+    console.log(contador)
+}
+
+contarpar([2,4,6])
