@@ -1,0 +1,16 @@
+function segundoMaior(arr) {
+    let maior = 0;
+    let segundo = 0;
+
+    for (let num of arr) {
+        if (num > maior) {
+            segundo = maior;
+            maior = num;
+        } else if (num > segundo && num !== maior) {
+            segundo = num;
+        }
+    }
+
+    return segundo;
+}
+console.log(segundoMaior([1, 6, 7,8,9]))
