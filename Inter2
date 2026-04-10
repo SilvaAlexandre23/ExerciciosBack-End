@@ -1,0 +1,12 @@
+function removerDuplicados(arr) {
+    let resultado = [];
+
+    for (let item of arr) {
+        if (!resultado.includes(item)) {
+            resultado.push(item);
+        }
+    }
+
+    return resultado;
+}
+console.log(removerDuplicados([1, 3, 4, 5, 5, 6]))
